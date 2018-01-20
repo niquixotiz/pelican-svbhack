@@ -1,12 +1,19 @@
-# SVBHACK
+This is a little bit modified [pelican-svbhack](https://github.com/gfidente/pelican-svbhack) theme for [Pelican](http://getpelican.com). 
+---
+### What's changed:
+- theme palette - [solarized dark](http://ethanschoonover.com/solarized)
+- code highlighting - half solarized dark, half custom
+- added a couple of links in header - categories and tags
+- added 'continue reading' button on index page. It appears after the article's summary
+- I dropped out less stylesheet - I don't know less and too lazy to deal with it, so there is only CSS changed
 
-pelican-svbhack is a responsive theme for [Pelican](http://getpelican.com), it is my hack of a svbtle-like theme.
-
-## DEMO
-
-You can see the [theme in action](http://www.giuliofidente.com/).
-
-![theme screenshot](https://raw.github.com/gfidente/pelican-svbhack/master/screenshot.png)
+## EXAMPLES
+Index
+![theme screenshot](https://raw.github.com/niquixotiz/pelican-svbhack/master/screenshot.png)
+---
+Code block
+![codeblock screenshot](https://raw.github.com/niquixotiz/pelican-svbhack/master/screenshot-code.png)
+---
 
 ## FEATURES
 
@@ -22,7 +29,7 @@ You can see the [theme in action](http://www.giuliofidente.com/).
 
 ## INSTALL
 
-Clone the [repository](https://github.com/gfidente/pelican-svbhack), edit your `pelicanconf.py` and modify the `THEME` variable to make it point to the downloaded theme location.
+Clone the [repository](https://github.com/niquixotiz/pelican-svbhack), edit your `pelicanconf.py` and modify the `THEME` variable to make it point to the downloaded theme location.
 
 ## PELICANCONF.PY
 
@@ -42,14 +49,9 @@ Supports a number of common global variables but patches are welcomed if you nee
 
 When developing locally, you may want to set the following variable: `SITEURL = http://localhost:8000`
 
-## MODIFICATIONS
-
-- Accent color can be changed by editing `@accent` in `./static/css/style.less`.
-- A different Pygmentize theme can be used by editing `./Makefile` and running `make pygments`.
-
 ## AUTHOR
 
-pelican-svbhack is authored by Giulio Fidente.
+pelican-svbhack is authored by Giulio Fidente. Little bit tuned by [me](https://github.com/niquixotiz).
 
 ## LICENSE
 

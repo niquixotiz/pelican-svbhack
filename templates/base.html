@@ -41,7 +41,7 @@
         <img src="{{ USER_LOGO_URL }}" alt="logo"
         {%- if ROUND_USER_LOGO %} class="round-img"{% endif %}>
         {% else %}
-        <img src="{{ SITEURL }}/theme/images/logo.png" alt="logo">
+        <img src="{{ SITEURL }}/theme/images/logo.jpg" alt="logo">
         {% endif %}
       </a>
       <h2><a href="{{ SITEURL }}">{{ AUTHOR }}</a></h2>
@@ -66,7 +66,10 @@
   <main>
     <header>
       <p>
-      <a href="{{ SITEURL }}">Index</a> &brvbar; <a href="{{ SITEURL }}/archives.html">Archives</a>
+      <a href="{{ SITEURL }}/index.html">Index</a> &brvbar;
+      <a href="{{ SITEURL }}/categories.html">Categories</a> &brvbar; 
+      <a href="{{ SITEURL }}/archives.html">Archives</a> &brvbar;
+      <a href="{{ SITEURL }}/tags.html">Tags</a>
       {% if FEED_ALL_ATOM %}
       &brvbar; <a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}">Atom</a>
       {% endif %}
@@ -85,7 +88,7 @@
     {% endblock %}
 
     <div id="ending_message">
-      <p>&copy; {{ AUTHOR }}. Built using <a href="http://getpelican.com" target="_blank">Pelican</a>. Theme by Giulio Fidente on <a href="https://github.com/gfidente/pelican-svbhack" target="_blank">github</a>. {% if INTERNET_DEFENSE_LEAGUE %}Member of the <a href="http://internetdefenseleague.org">Internet Defense League</a>.{% endif %}</p>
+      <p>&copy; {{ AUTHOR }}. Built using <a href="http://getpelican.com" target="_blank">Pelican</a>. Theme by Giulio Fidente on <a href="https://github.com/gfidente/pelican-svbhack" target="_blank">github</a>. Little bit tuned by <a href="https://github.com/niquixotiz">niquixotiz</a>. {% if INTERNET_DEFENSE_LEAGUE %}Member of the <a href="http://internetdefenseleague.org">Internet Defense League</a>.{% endif %}</p>
     </div>
   </main>
   {% include "modules/idl.html" %}
