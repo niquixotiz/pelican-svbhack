@@ -16,7 +16,7 @@ hr {
   height: 5px;
   border: none;
 }
-img {
+article img {
   max-width: calc(100% - 10px);
   max-width: -moz-calc(100% - 10px);
   max-width: -webkit-calc(100% - 10px);
