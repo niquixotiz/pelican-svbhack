@@ -3,6 +3,7 @@ import os
 
 if 'PELICAN_LOCAL_RUN' in os.environ:
     SITEURL = 'http://localhost:8000'
+    THEME = '.'
 else:
     SITEURL = 'https://dumbsec.ninja'
 
@@ -12,7 +13,6 @@ SITENAME = 'Notes from wannabe in everything'
 STATIC_PATHS = ['cstatic']
 TIMEZONE = 'Europe/Moscow'
 AUTHOR = 'Notorious impostor'
-THEME = '.'
 THEME_STATIC_PATHS = ['static']
 SITESUBTITLE = 'Full-time malware analysis impostor, former software tester and developer'
 TAGLINE = SITESUBTITLE

@@ -12,5 +12,5 @@ fi
 git --git-dir="$DIR/.git" fetch origin master
 git --git-dir="$DIR/.git" reset --hard FETCH_HEAD
 source "$DIR/venv/bin/activate"
-pelican --delete-output-directory --ignore-cache -s "$DIR/pelicanconf.py"
+pelican -o "$DIR/output" --ignore-cache -s "$DIR/pelicanconf.py"
 deactivate
