@@ -11,4 +11,4 @@ fi
 
 git --git-dir="$DIR/.git" pull
 source "$DIR/venv/bin/activate"
-pelican -s "$DIR/pelicanconf.py"
+pelican --ignore-cache -s "$DIR/pelicanconf.py"
