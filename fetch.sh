@@ -4,7 +4,7 @@
 
 SCRIPT="$(readlink -f "$0")"
 DIR="$(dirname "$SCRIPT")"
-if [[ ! -d venv/ ]]; then
+if [[ ! -d "$DIR/venv/" ]]; then
     echo "Please init venv in '$DIR'"
     exit 1
 fi
