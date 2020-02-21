@@ -9,6 +9,6 @@ if [[ ! -d "$DIR/venv/" ]]; then
     exit 1
 fi
 
-git pull
+git --git-dir="$DIR" pull
 source "$DIR/venv/bin/activate"
 pelican -s "$DIR/pelicanconf.py"
