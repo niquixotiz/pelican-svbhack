@@ -17,4 +17,5 @@ THEME_STATIC_PATHS = ['static']
 SITESUBTITLE = 'Full-time malware analysis impostor, former software tester and developer'
 TAGLINE = SITESUBTITLE
 SOCIAL = (('twitter', 'https://twitter.com/no_nuestro'),
-          ('github', 'https://github.com/winter3angle'))
+          ('github', 'https://github.com/winter3angle'),
+          ('h1', 'https://hackerone.com/x268'))
