@@ -167,6 +167,18 @@ main div#ending_message {
   color: #586e75;
   font-size: .6rem;
 }
+main article table {
+  width: 100%;
+  border-collapse: collapse;
+}
+main article td, main article th {
+  border: #073642 2px dashed;
+  padding: .3em .3em .3em .3em;
+  text-align: center;
+}
+main article tr:hover {
+  background-color: #073642;
+}
 @media screen and (min-width: 1024px) {
   aside {
     width: 15%;
