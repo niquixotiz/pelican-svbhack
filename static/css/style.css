@@ -209,9 +209,6 @@ main article tr:hover {
     overflow-x: hidden;
     overflow-y: hidden;
   }
-  main article {
-    max-width: 800px;
-  }
   main header {
     border-top: 0;
   }
