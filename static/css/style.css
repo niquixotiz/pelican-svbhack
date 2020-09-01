@@ -69,8 +69,8 @@ main header p {
   text-transform: uppercase;
 }
 main article {
-  max-width: 640px;
-  padding: 40px;
+  max-width: 90%;
+  padding: 3%;
 }
 main article div.article_text {
   line-height: 1.375em;
@@ -83,6 +83,9 @@ main article table.highlighttable {
 }
 main article div.linenodiv {
   text-align: right;
+}
+main article pre {
+  white-space: break-spaces;
 }
 main article table td.linenos pre {
   padding: 5px;
